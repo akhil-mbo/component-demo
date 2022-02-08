@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Do a `yarn install` to install packages. I have also sass for css.
+Do a `yarn install` to install packages. I have also added sass for css.
