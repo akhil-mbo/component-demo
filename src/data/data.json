@@ -1,3 +1,38 @@
-{
-  "message": "Fetching Success"
-}
+[
+  {
+    "status": "paid",
+    "companyName": "Keebler LLC",
+    "transactionDate": "2022-01-01T00:00:00",
+    "jobId": "991155, 884323, 879073",
+    "amount": 13200,
+    "startDate": "2022-01-01T00:00:00",
+    "endDate": "2022-01-01T00:00:00"
+  },
+  {
+    "status": "paid",
+    "companyName": "Keebler LLC",
+    "transactionDate": "2022-01-01T00:00:00",
+    "jobId": "991155, 884323, 879073",
+    "amount": 13200,
+    "startDate": "2022-01-01T00:00:00",
+    "endDate": "2022-01-01T00:00:00"
+  },
+  {
+    "status": "paid",
+    "companyName": "Keebler LLC",
+    "transactionDate": "2022-01-01T00:00:00",
+    "jobId": "991155, 884323, 879073",
+    "amount": 13200,
+    "startDate": "2022-01-01T00:00:00",
+    "endDate": "2022-01-01T00:00:00"
+  },
+  {
+    "status": "paid",
+    "companyName": "Keebler LLC",
+    "transactionDate": "2022-01-01T00:00:00",
+    "jobId": "991155, 884323, 879073",
+    "amount": 13200,
+    "startDate": "2022-01-01T00:00:00",
+    "endDate": "2022-01-01T00:00:00"
+  }
+]
