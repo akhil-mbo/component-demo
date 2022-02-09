@@ -9,4 +9,4 @@ There is function in utils folder which mimicks API fetching with delays. It tak
 ## Code Formatting
 
 - Make sure format on save is enabled on VS Code settings.
-- Set ESlint is as default code formatter.
+- Set ESlint is as default code formatter for ts, tsx, js, jsx files.
