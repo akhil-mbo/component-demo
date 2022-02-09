@@ -1,6 +1,6 @@
 import React from "react";
 
-import Icon from "../../utils/Constants/Icon";
+import Icon from "../../Constants/Icon";
 
 import ThreeDots from "./ThreeDots";
 
