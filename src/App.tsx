@@ -7,10 +7,10 @@ import fetchData, { fetchValue } from "./utils/fetch";
 import "./App.scss";
 
 const App = () => {
-  const [data, setData] = useState<fetchValue[]>([]);
+  const [data, setData] = useState<fetchValue[] | number[]>([1, 2, 3, 4]);
 
   const getData = async () => {
-    const res = await fetchData(3000);
+    const res = await fetchData(13000);
 
     setData(res);
   };
@@ -21,19 +21,35 @@ const App = () => {
 
   return (
     <div className="container">
-      {data.length > 0 &&
-        data.map((item, i) => (
+      {data.map((item, i) => {
+        if (typeof item !== "number") {
+          return (
+            <Card
+              key={i}
+              status={item.status}
+              amount={item.amount}
+              companyName={item.companyName}
+              paidDate={item.transactionDate}
+              startDate={item.startDate}
+              endDate={item.endDate}
+              ids={item.jobId}
+            />
+          );
+        }
+
+        return (
           <Card
             key={i}
-            status={item.status}
-            amount={item.amount}
-            companyName={item.companyName}
-            paidDate={item.transactionDate}
-            startDate={item.startDate}
-            endDate={item.endDate}
-            ids={item.jobId}
+            status={null}
+            amount={null}
+            companyName={null}
+            paidDate={null}
+            startDate={null}
+            endDate={null}
+            ids={null}
           />
-        ))}
+        );
+      })}
     </div>
   );
 };
