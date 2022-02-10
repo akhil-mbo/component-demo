@@ -10,7 +10,7 @@ const App = () => {
   const [data, setData] = useState<fetchValue[] | number[]>([1, 2, 3, 4]);
 
   const getData = async () => {
-    const res = await fetchData(13000);
+    const res = await fetchData(3000);
 
     setData(res);
   };
